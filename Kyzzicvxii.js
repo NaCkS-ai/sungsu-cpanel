@@ -167,7 +167,7 @@ await conn.sendMessage(from, {text: kyzz[i], edit: key });
 }
 }
 
-const menutxt= `( 𝖮𝗅𝖺𝖺 👋 ${m.pushName} ) 𝖺𝗆 𝖹𝗒𝖷 𝖲𝗂𝗆𝗉𝗅𝖾 𝖡𝗈𝗍 𝗏5. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, 𝗄𝗒𝗓𝗓. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
+const menutxt= `( Heyy Darling 👋 ${m.pushName} ) I am sungsu-cpanel. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, Mr sung. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌 𝗌𝗁𝖺𝗋𝖾𝖽 𝖿𝗈𝗋 𝖿𝗋𝖾𝖾, 𝗂𝖿 𝖺𝗇𝗒𝗈𝗇𝖾 𝗂𝗌 𝗌𝖾𝗅𝗅𝗂𝗇𝗀 𝗂𝗍, 𝗉𝗅𝖾𝖺𝗌𝖾 𝗋𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝗍𝗁𝖾 𝗈𝗐𝗇𝖾𝗋, 𝗍𝗁𝖺𝗇𝗄 𝗒𝗈𝗎 𝖿𝗈𝗋 𝗆𝖺𝗄𝗂𝗇𝗀 𝗍𝗁𝖾 𝗌𝖼𝗋𝗂𝗉𝗍 ☺️
 ╭─「 \`BOT INFORMATION\` 」
 │▢ Bot : ${global.botname2}
@@ -176,7 +176,7 @@ const menutxt= `( 𝖮𝗅𝖺𝖺 👋 ${m.pushName} ) 𝖺𝗆 𝖹𝗒𝖷 �
 │▢ Owner : @${global.owner}
 │▢ Uptime : ${runtime(os.uptime())}
 │▢ Status : ${isCreator ? "Owner" : isPremium ? "Reseller" : "User"}
-│▢ Total Fitur : ${totalfitur()}
+│▢ Total Features : ${totalfitur()}
 ╰━──────────────━〢
 ╭─「 \`DO MENU\` 」
 │▢ .ᴄᴠᴘs
@@ -607,12 +607,12 @@ title: `*List Panel Run Bot Private 🌟*
 
 * Ram Unlimited : Rp10.000
 
-*Syarat & Ketentuan :*
-* _Server private & kualitas terbaik!_
-* _Script bot dijamin aman (anti drama/maling)_
-* _Garansi 10 hari (1x replace)_
-* _Server anti delay/lemot!_
-* _Claim garansi wajib bawa bukti transaksi_`, 
+*Terms & Conditions :*
+* _Private server with top-notch quality!_
+* _Script bot is guranteed safe (anti drama/theft)_
+* _10 day gurantee (1x replace)_
+* _Server anti delay/lag!_
+* _Gurantee claims require transaction proof_`, 
 hasMediaAttachment: true,
 ...imgsc
 }),
@@ -635,24 +635,24 @@ await conn.relayMessage(jid, msgii.message, {messageId: msgii.key.id})
 switch (command) {
 case "menu": {
 // await loading()
-  let teksnya = `( 𝖮𝗅𝖺𝖺 👋 ${m.pushName} ) 𝖺𝗆 𝖹𝗒𝖷 𝖲𝗂𝗆𝗉𝗅𝖾 𝖡𝗈𝗍 𝗏5. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, 𝗄𝗒𝗓𝗓. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
+  let teksnya = `( Heyy Darling 👋 ${m.pushName} ) I am sungsu-cpanel. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, Mr sung. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌 𝗌𝗁𝖺𝗋𝖾𝖽 𝖿𝗈𝗋 𝖿𝗋𝖾𝖾, 𝗂𝖿 𝖺𝗇𝗒𝗈𝗇𝖾 𝗂𝗌 𝗌𝖾𝗅𝗅𝗂𝗇𝗀 𝗂𝗍, 𝗉𝗅𝖾𝖺𝗌𝖾 𝗋𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝗍𝗁𝖾 𝗈𝗐𝗇𝖾𝗋, 𝗍𝗁𝖺𝗇𝗄 𝗒𝗈𝗎 𝖿𝗈𝗋 𝗆𝖺𝗄𝗂𝗇𝗀 𝗍𝗁𝖾 𝗌𝖼𝗋𝗂𝗉𝗍 ☺️
 
 ╭──「 \`INFO BOT\` ⌝ 
-│▢ Nama Bot: *${global.botname2}*
+│▢ Bot Name: *${global.botname2}*
 │▢ Version: ${versi}
 │▢ Creator: ${namaOwner}
-│▢ Total Fitur: ${totalfitur()}
+│▢ Total Features: ${totalfitur()}
 ╰━──────────────━〢
 ┌─ 「 \`MENU NAVIGASI\` 」
-│▢ *ketik .allmenu support button*
-│▢ *ketik .allmenu2 not support button*
-│▢ *katik .donate buat support owner*
+│▢ *Type .allmenu support button*
+│▢ *Type .allmenu2 not support button*
+│▢ *Type .donate buat support owner*
 └─────────────────
 
 ⚠️ *Note:* 
-Bot ini masih dalam tahap pengembangan.
-Jika menemukan error silahkan report!
+This bot is still in devolpoment if there
+are any errors pls contact owner!
 © ${namaOwner} 
 `
 await conn.sendMessage(m.chat, { 
@@ -687,7 +687,7 @@ break
 case "allmenu": case "all": {
 // await loading()
   await conn.sendMessage(m.chat, {
-    footer: `© WhatsApp KyzzX Pedia`,
+    footer: `© WhatsApp sungsu Pedia`,
     buttons: [
       {
         buttonId: 'owner',
@@ -1756,8 +1756,7 @@ break
 *👤 Channel:* ${data.metadata.channelTitle}
 *⏰ Published:* ${data.metadata.publishedAt}
 
-> Note :
-> Semakin Besar Videonya Semakin Lama Loading Nya...`;
+> Done by sungsu-cpanel
 
         await conn.sendMessage(m.chat, { 
             video: { url: data.download.video },
@@ -9279,7 +9278,7 @@ let result = await f2.json()
 if (result.errors) return m.reply(JSON.stringify(result.errors[0], null, 2))
 let server = result.attributes
 var orang = db.users[m.sender].saweria.chat
-var tekspanel = `*Data Akun Panel Kamu 📦*
+var tekspanel = `*Account Details 📦*
 
 *📡 ID Server (${server.id})* 
 *👤 Username :* ${user.username}
@@ -9291,11 +9290,11 @@ var tekspanel = `*Data Akun Panel Kamu 📦*
 * CPU : *${Obj.cpu == "0" ? "Unlimited" : Obj.cpu+"%"}*
 * ${global.domain}
 
-*Syarat & Ketentuan :*
-* Expired panel 1 bulan
-* Simpan data ini sebaik mungkin
-* Garansi pembelian 15 hari (1x replace)
-* Claim garansi wajib membawa bukti chat pembelian
+*Terms and Conditons :*
+* Panel Expiration 1 month
+* Save this data as good as possible
+* 15 day gurantee (1x replace)
+* Must provide proof of purchase
 `
 await fs.writeFileSync("./akunpanel.txt", tekspanel)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: tekspanel}, {quoted: null})
@@ -9411,7 +9410,7 @@ let f = await fetch(domain + "/api/application/users", {
 let data = await f.json();
 if (data.errors) return m.reply(JSON.stringify(data.errors[0], null, 2))
 let user = data.attributes
-var teks = `*Data Akun Admin Panel 📦*
+var teks = `*ACCOUNT Details 📦*
 
 *📡 ID User (${user.id})* 
 *👤 Username :* ${user.username}
