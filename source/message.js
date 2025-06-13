@@ -1,7 +1,7 @@
 /*
 
-  !- Credits By Skyzopedia
-  https://wa.me/6285624297894
+  !- Credits By Mr sung
+  https://wa.me/27813374457
   
 */
 
