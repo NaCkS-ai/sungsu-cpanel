@@ -644,7 +644,7 @@ case "menu": {
 │▢ Creator: ${namaOwner}
 │▢ Total cmds: ${totalfitur()}
 ╰━──────────────━〢
-┌─ 「 \`MENU NAVIGASI\` 」
+┌─ 「 \`MENU NAVGATION\` 」
 │▢ *Type .allmenu support button*
 │▢ *Type .allmenu2 non-support button*
 │▢ *Type .donate to support owner*
