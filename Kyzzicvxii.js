@@ -167,7 +167,7 @@ await conn.sendMessage(from, {text: kyzz[i], edit: key });
 }
 }
 
-const menutxt= `( 𝖮𝗅𝖺𝖺 👋 ${m.pushName} ) 𝖺𝗆 𝖹𝗒𝖷 𝖲𝗂𝗆𝗉𝗅𝖾 𝖡𝗈𝗍 𝗏5. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, 𝗄𝗒𝗓𝗓. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
+const menutxt= `( Heyy Darling 👋 ${m.pushName} ) I am sungsu-cpanel. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, Mr sungsu. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌 𝗌𝗁𝖺𝗋𝖾𝖽 𝖿𝗈𝗋 𝖿𝗋𝖾𝖾, 𝗂𝖿 𝖺𝗇𝗒𝗈𝗇𝖾 𝗂𝗌 𝗌𝖾𝗅𝗅𝗂𝗇𝗀 𝗂𝗍, 𝗉𝗅𝖾𝖺𝗌𝖾 𝗋𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝗍𝗁𝖾 𝗈𝗐𝗇𝖾𝗋, 𝗍𝗁𝖺𝗇𝗄 𝗒𝗈𝗎 𝖿𝗈𝗋 𝗆𝖺𝗄𝗂𝗇𝗀 𝗍𝗁𝖾 𝗌𝖼𝗋𝗂𝗉𝗍 ☺️
 ╭─「 \`BOT INFORMATION\` 」
 │▢ Bot : ${global.botname2}
@@ -176,7 +176,7 @@ const menutxt= `( 𝖮𝗅𝖺𝖺 👋 ${m.pushName} ) 𝖺𝗆 𝖹𝗒𝖷 �
 │▢ Owner : @${global.owner}
 │▢ Uptime : ${runtime(os.uptime())}
 │▢ Status : ${isCreator ? "Owner" : isPremium ? "Reseller" : "User"}
-│▢ Total Fitur : ${totalfitur()}
+│▢ Total cmds : ${totalfitur()}
 ╰━──────────────━〢
 ╭─「 \`DO MENU\` 」
 │▢ .ᴄᴠᴘs
@@ -635,24 +635,24 @@ await conn.relayMessage(jid, msgii.message, {messageId: msgii.key.id})
 switch (command) {
 case "menu": {
 // await loading()
-  let teksnya = `( 𝖮𝗅𝖺𝖺 👋 ${m.pushName} ) 𝖺𝗆 𝖹𝗒𝖷 𝖲𝗂𝗆𝗉𝗅𝖾 𝖡𝗈𝗍 𝗏5. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, 𝗄𝗒𝗓𝗓. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
+  let teksnya = `( Heyy Darling 👋 ${m.pushName} ) I am sungsu-cpanel. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, Mr sung. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌 𝗌𝗁𝖺𝗋𝖾𝖽 𝖿𝗈𝗋 𝖿𝗋𝖾𝖾, 𝗂𝖿 𝖺𝗇𝗒𝗈𝗇𝖾 𝗂𝗌 𝗌𝖾𝗅𝗅𝗂𝗇𝗀 𝗂𝗍, 𝗉𝗅𝖾𝖺𝗌𝖾 𝗋𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝗍𝗁𝖾 𝗈𝗐𝗇𝖾𝗋, 𝗍𝗁𝖺𝗇𝗄 𝗒𝗈𝗎 𝖿𝗈𝗋 𝗆𝖺𝗄𝗂𝗇𝗀 𝗍𝗁𝖾 𝗌𝖼𝗋𝗂𝗉𝗍 ☺️
 
 ╭──「 \`INFO BOT\` ⌝ 
 │▢ Nama Bot: *${global.botname2}*
 │▢ Version: ${versi}
 │▢ Creator: ${namaOwner}
-│▢ Total Fitur: ${totalfitur()}
+│▢ Total cmds: ${totalfitur()}
 ╰━──────────────━〢
 ┌─ 「 \`MENU NAVIGASI\` 」
-│▢ *ketik .allmenu support button*
-│▢ *ketik .allmenu2 not support button*
-│▢ *katik .donate buat support owner*
+│▢ *Type .allmenu support button*
+│▢ *Type .allmenu2 non-support button*
+│▢ *Type .donate to support owner*
 └─────────────────
 
 ⚠️ *Note:* 
-Bot ini masih dalam tahap pengembangan.
-Jika menemukan error silahkan report!
+This bot is  still in devolopment so
+if there are errors pls report to owner!
 © ${namaOwner} 
 `
 await conn.sendMessage(m.chat, { 
