@@ -3,27 +3,27 @@ const chalk = require('chalk');
 const { version } = require("./package.json")
 
 // Settings Bot 
-global.owner = '626698'
+global.owner = '27823374457'
 global.versi = version
-global.namaOwner = "KyzzX"
+global.namaOwner = "Mr sung"
 global.packname = 'Bot WhatsApp By KyzzX Offc'
 global.botname = 'KyzzX'
-global.botname2 = 'Kyzz-X'
+global.botname2 = 'sungsu-cpanel'
 global.tempatDB = 'database.json' // Jangan ubah
 global.pairing_code = true // Jangan ubah
 
 // Settings Link / Tautan
-global.linkOwner = "https://wa.me/62"
-global.linkGrup = "https://chat.whatsapp.com/DNfZm7ZpHvW7RwCgavaICu"
+global.linkOwner = "https://wa.me/27823374457"
+global.linkGrup = "https://chat.whatsapp.com/KwAcndFrSQtH1mXzYkJ5SD"
 
 // Delay Jpm & Pushctc || 1000 = 1detik
 global.delayJpm = 3000
 global.delayPushkontak = 6000
 
 // Settings Channel / Saluran
-global.linkSaluran = "https://whatsapp.com/channel/0029VbAyPd0ADTOERRlhkr0e"
-global.idSaluran = "120363400576509445@newsletter"
-global.namaSaluran = "</> KyzzX X Ch Utama ✯"
+global.linkSaluran = "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A"
+global.idSaluran = "12036339843005533@newsletter"
+global.namaSaluran = "ᴍᴀʟᴠɪɴ ᴋɪɴɢ ᴛᴇᴄʜ🫟"
 global.pinH2H = "-"
 global.passwordH2H = "-"
 global.merchantIdOrderKuota = "OK1934316"
@@ -45,13 +45,13 @@ global.gopay = "Tidak Tersedia"
 
 // Settings Image Url
 global.image = {
-menu: "https://files.catbox.moe/g6jxjl.jpg", 
-reply: "https://files.catbox.moe/g6jxjl.jpg", 
-logo: "https://files.catbox.moe/g6jxjl.jpg", 
+menu: "https://files.catbox.moe/l0wexq.jpg", 
+reply: "https://files.catbox.moe/l0wexq.jpg", 
+logo: "https://files.catbox.moe/l0wexq.jpg", 
 dana: "https://img102.pixhost.to/images/79/556578147_biyu.jpg", 
 ovo: "https://img102.pixhost.to/images/79/556578147_biyu.jpg", 
 gopay: "https://img102.pixhost.to/images/79/556578147_biyu.jpg", 
-qris: "https://files.catbox.moe/3bayum.jpg"
+qris: "https://files.catbox.moe/l0wexq.jpg"
 }
 
 // Settings Api Panel Pterodactyl
