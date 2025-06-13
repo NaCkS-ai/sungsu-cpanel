@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const { version } = require("./package.json")
 
 // Settings Bot 
-global.owner = '27823374457'
+global.owner = '27813374457'
 global.versi = version
 global.namaOwner = "Mr sung"
 global.packname = 'Bot WhatsApp By KyzzX Offc'
@@ -13,7 +13,7 @@ global.tempatDB = 'database.json' // Jangan ubah
 global.pairing_code = true // Jangan ubah
 
 // Settings Link / Tautan
-global.linkOwner = "https://wa.me/27823374457"
+global.linkOwner = "https://wa.me/22813374457"
 global.linkGrup = "https://chat.whatsapp.com/KwAcndFrSQtH1mXzYkJ5SD"
 
 // Delay Jpm & Pushctc || 1000 = 1detik
