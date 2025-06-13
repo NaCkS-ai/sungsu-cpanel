@@ -1,0 +1,62 @@
+
+• Script ini hanya work di nodejs v18
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+CARA MENGAMBIL API PAYMENT ORDER KUOTA
+
+1. Hubungi admin Order Kuota melalui Telegram untuk meminta dibuatkan akun H2H. Jika ditanya tujuan integrasi, jawab: "Untuk integrasi dengan aplikasi Bukaolshop."
+
+2. Setelah akun dibuat, login ke website OkeConnect.
+
+3. Masuk ke menu Payment H2H, lalu pilih Integrasi API.
+
+4. Salin ID Merchant dan API Token, lalu simpan dengan baik.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+CARA SETTING H2H ORDER KUOTA
+
+1. Login ke OkeConnect.
+
+2. Masuk ke menu Integrasi Transaksi.
+
+3. Pilih Transaksi Via IP.
+
+4. Masukkan IP Panel di kolom IP Address. (Untuk melihat IP panel, gunakan perintah .ip di SC Simple Bot.)
+
+5. Buat Password akun H2H pada kolom Password.
+
+6. Buat PIN H2H pada kolom Pin Transaksi.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CARA MEMBUAT URL QRIS ORDER KUOTA
+Gunakan fitur .readqr di SC Simple Bot.
+
+NOTE : QRIS Orderkuota Harus Sudah Tercetak
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+CARA SETTING FITUR BUY OTOMATIS DI SCRIPT BOT
+
+1. Buka file settings.js.
+
+2. Isi variabel berikut sesuai dengan data yang telah didapatkan:
+global.merchantIdOrderKuota = "ISI_DENGAN_MERCHANT_ID";
+global.apiOrderKuota = "ISI_DENGAN_API_TOKEN";
+global.qrisOrderKuota = "ISI_DENGAN_URL_QRIS";
+global.pinH2H = "ISI_DENGAN_PIN_H2H";
+global.passwordH2H = "ISI_DENGAN_PASSWORD_H2H";
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+ ## Credits By KyzzX!.
+ ## https://wa.me/628317021967
+ ## https://whatsapp.com/channel/0029VbAyPd0ADTOERRlhkr0e
