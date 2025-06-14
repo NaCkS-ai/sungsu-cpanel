@@ -607,12 +607,11 @@ title: `*List Panel Run Bot Private 🌟*
 
 * Ram Unlimited : Rp10.000
 
-*Syarat & Ketentuan :*
-* _Server private & kualitas terbaik!_
-* _Script bot dijamin aman (anti drama/maling)_
-* _Garansi 10 hari (1x replace)_
-* _Server anti delay/lemot!_
-* _Claim garansi wajib bawa bukti transaksi_`, 
+*SungSu Terms & Conditions:*
+* _Private server & best quality!_ * _Guaranteed safe bot script (anti drama/theft)_
+* _10 day guarantee (1x replace)_
+* _Anti delay/slow server!_
+* _Warranty claim must bring proof of transaction_`, 
 hasMediaAttachment: true,
 ...imgsc
 }),
@@ -1757,8 +1756,7 @@ break
 *⏰ Published:* ${data.metadata.publishedAt}
 
 > Note :
-> Semakin Besar Videonya Semakin Lama Loading Nya...`;
-
+> The bigger the video, the longer it takes to load...`;
         await conn.sendMessage(m.chat, { 
             video: { url: data.download.video },
             caption: caption
@@ -2023,17 +2021,17 @@ await conn.sendMessage(db.users[m.sender].saweria.chat, {text: `
  *• Total Pembayaran :* Rp${await toIDR(db.users[m.sender].saweria.amount)}
  *• Barang :* Digitalocean ${Obj.akun.droplet} Droplet
 `}, {quoted: db.users[m.sender].saweria.msg})
-var teks = `*Data Akun Digitalocean 📦*
+var teks = `*Digitalocean Account Data 📦*
 
 *💌 Email :* ${Obj.akun.email}
 *🔐 Password :* ${Obj.akun.password}
 *Kode 2FA :* ${Obj.akun.kode2fa}
 *Droplet :* ${Obj.akun.droplet}
 
-*Syarat & Ketentuan :*
-* Simpan data ini sebaik mungkin
-* Seller hanya mengirim 1 kali!
-* Garansi akun aktif 30 day
+*SungSu Terms & Conditions:* 
+* Save this data as best as possible
+* Seller only sends 1 time! 
+* 30 day active account guarantee
 `
 await conn.sendMessage(db.users[m.sender].saweria.chat, {text: teks}, {quoted: m})
 const position = stokdo.indexOf(Obj.akun)
@@ -2131,8 +2129,8 @@ const teks3 = `
  *• Expired :* 5 menit
 
 *Note :* 
-Qris pembayaran hanya berlaku dalam 5 menit, jika sudah melewati 5 menit pembayaran dinyatakan tidak valid!
-Jika pembayaran berhasil bot akan otomatis mengirim notifikasi status pembayaran kamu.
+Qris payment is only valid for 5 minutes, if it has passed 5 minutes the payment is declared invalid!
+If the payment is successful the bot will automatically send a notification of your payment status.
 
 Ketik *batalbeli* untuk membatalkan
 `
@@ -2407,8 +2405,8 @@ const teks3 = `
  *• Expired :* 5 menit
 
 *Note :* 
-Qris pembayaran hanya berlaku dalam 5 menit, jika sudah melewati 5 menit pembayaran dinyatakan tidak valid!
-Jika pembayaran berhasil bot akan otomatis mengirim notifikasi status pembayaran kamu.
+Qris payment is only valid for 5 minutes, if it has passed 5 minutes the payment is declared invalid!
+If the payment is successful the bot will automatically send a notification of your payment status.
 
 Ketik *batalbeli* untuk membatalkan
 `
@@ -2565,8 +2563,8 @@ const teks3 = `
  *• Expired :* 5 menit
 
 *Note :* 
-Qris pembayaran hanya berlaku dalam 5 menit, jika sudah melewati 5 menit pembayaran dinyatakan tidak valid!
-Jika pembayaran berhasil bot akan otomatis mengirim notifikasi status pembayaran kamu.
+Qris payment is only valid for 5 minutes, if it has passed 5 minutes the payment is declared invalid!
+If the payment is successful the bot will automatically send a notification of your payment status.
 
 Ketik *batalbeli* untuk membatalkan
 `
@@ -2721,8 +2719,8 @@ const teks3 = `
  *• Expired :* 5 menit
 
 *Note :* 
-Qris pembayaran hanya berlaku dalam 5 menit, jika sudah melewati 5 menit pembayaran dinyatakan tidak valid!
-Jika pembayaran berhasil bot akan otomatis mengirim notifikasi status pembayaran kamu.
+Qris payment is only valid for 5 minutes, if it has passed 5 minutes the payment is declared invalid!
+If the payment is successful the bot will automatically send a notification of your payment status.
 
 Ketik *batalbeli* untuk membatalkan
 `
@@ -6901,16 +6899,17 @@ ress.exec('bash <(curl -s https://raw.githubusercontent.com/SkyzoOffc/Pterodacty
 if (err) throw err;
 stream.on('close', async (code, signal) => {
 let teks = `
-*📦 Berikut Detail Akun Panel :*
+*📦 Following are the Panel Account Details :*
 
 * *Username :* admin
 * *Password :* ${passwordPanel}
 * *Domain :* ${domainpanel}
 
-*Note :* Silahkan Buat Allocation & Ambil Token Wings Di Node Yang Sudah Di Buat Oleh Bot Untuk Menjalankan Wings
+*Note :* Please Create Allocation & Take Wings Tokens On Nodes That Have Been Created By Bots To Run Wings
 
-*Cara Menjalankan Wings :*
-ketik *.startwings* ipvps|pwvps|tokenwings
+*How to Run Wings :
+* type *.startwings
+* ipvps|pwvps|tokenwings
 `
 await conn.sendMessage(m.chat, {text: teks}, {quoted: m})
 }).on('data', async (data) => {
@@ -8307,11 +8306,11 @@ var teks = `*Data Akun Admin Panel 📦*
 *🔐 Password :* ${password.toString()}
 * ${global.domain}
 
-*Syarat & Ketentuan :*
-* Expired akun 1 bulan
-* Simpan data ini sebaik mungkin
-* Jangan asal hapus server!
-* Ketahuan maling sc, auto delete akun no reff!
+*SungSu Terms & Conditions:* 
+* Account expires in 1 month 
+* Save this data as best as possible 
+* Don't just delete the server!
+* If you are caught stealing sc, your account will be automatically deleted, no reff!
 `
 await fs.writeFileSync("./akunpanel.txt", teks)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
@@ -8362,11 +8361,11 @@ var teks = `*Data Akun Admin Panel 📦*
 *🔐 Password :* ${password.toString()}
 * ${global.domainV2}
 
-*Syarat & Ketentuan :*
-* Expired akun 1 bulan
-* Simpan data ini sebaik mungkin
-* Jangan asal hapus server!
-* Ketahuan maling sc, auto delete akun no reff!
+*SungSu Terms & Conditions:* 
+* Account expires in 1 month
+* Save this data as best as possible
+* Don't just delete the server!
+* If you are caught stealing sc, your account will be automatically deleted, no reff!
 `
 await fs.writeFileSync("./akunpanel.txt", teks)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
@@ -8697,8 +8696,8 @@ const teks3 = `
  *• Expired :* 5 menit
 
 *Note :* 
-Qris pembayaran hanya berlaku dalam 5 menit, jika sudah melewati 5 menit pembayaran dinyatakan tidak valid!
-Jika pembayaran berhasil bot akan otomatis mengirim notifikasi status pembayaran kamu.
+Qris payment is only valid for 5 minutes, if it has passed 5 minutes the payment is declared invalid! 
+If the payment is successful the bot will automatically send a notification of your payment status..
 
 Ketik *batalbeli* untuk membatalkan
 `
@@ -9279,7 +9278,7 @@ let result = await f2.json()
 if (result.errors) return m.reply(JSON.stringify(result.errors[0], null, 2))
 let server = result.attributes
 var orang = db.users[m.sender].saweria.chat
-var tekspanel = `*Data Akun Panel Kamu 📦*
+var tekspanel = `*Your Panel Account Data📦*
 
 *📡 ID Server (${server.id})* 
 *👤 Username :* ${user.username}
@@ -9291,11 +9290,11 @@ var tekspanel = `*Data Akun Panel Kamu 📦*
 * CPU : *${Obj.cpu == "0" ? "Unlimited" : Obj.cpu+"%"}*
 * ${global.domain}
 
-*Syarat & Ketentuan :*
-* Expired panel 1 bulan
-* Simpan data ini sebaik mungkin
-* Garansi pembelian 15 hari (1x replace)
-* Claim garansi wajib membawa bukti chat pembelian
+*SungSu Terms & Conditions:*
+* Expired panel 1 month
+* Save this data as best as possible 
+* 15-day purchase guarantee (1x replace) 
+* Warranty claims must bring proof of purchase chat
 `
 await fs.writeFileSync("./akunpanel.txt", tekspanel)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: tekspanel}, {quoted: null})
@@ -9418,11 +9417,11 @@ var teks = `*Data Akun Admin Panel 📦*
 *🔐 Password :* ${password.toString()}
 * ${global.domain}
 
-*Syarat & Ketentuan :*
-* Expired akun 1 bulan
-* Simpan data ini sebaik mungkin
-* Jangan asal hapus server!
-* Ketahuan maling sc, auto delete akun no reff!
+*SungSu Terms & Conditions:*
+* Account expires in 1 month 
+* Save this data as best as possible
+* Don't just delete the server!
+* If you are caught stealing sc, your account will be automatically deleted, no reff!
 `
 await fs.writeFileSync("./akunpanel.txt", teks)
 await conn.sendMessage(db.users[m.sender].saweria.chat, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
@@ -10684,11 +10683,11 @@ var teks = `*Data Akun Panel Kamu 📦*
 * CPU : *${cpu == "0" ? "Unlimited" : cpu+"%"}*
 * ${global.domain}
 
-*Syarat & Ketentuan :*
-* Expired panel 1 bulan
-* Simpan data ini sebaik mungkin
-* Garansi pembelian 15 hari (1x replace)
-* Claim garansi wajib membawa bukti chat pembelian
+*SungSu Terms & Conditions:* 
+* Expired panel 1 month 
+* Save this data as best as possible 
+* 15-day purchase guarantee (1x replace)
+* Warranty claims must bring proof of purchase chat
 `
 await fs.writeFileSync("akunpanel.txt", teks)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
@@ -11833,7 +11832,7 @@ let respon = `
 *🔵 INFORMATION BOTZ*
 
 *• Respon Speed :* ${latensi.toFixed(4)} detik
-*• Runtime Bot :* ${runtime(process.uptime())}
+*• sungsu Runtime :* ${runtime(process.uptime())}
 `
 await m.reply(respon)
 }
