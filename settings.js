@@ -58,9 +58,9 @@ qris: "https://files.catbox.moe/l0wexq.jpg"
 global.egg = "15" // Egg ID
 global.nestid = "5" // nest ID
 global.loc = "1" // Location ID
-global.domain = "https://kyzz-pengen-balikan.sevs.my.id"
-global.apikey = "ptla_iJx8TokTBvFG6hHkITUcbvTT88P7lf8Hbfet5hPMxAS" //ptla
-global.capikey = "ptlc_Qmmxs0v4pFPER4lDVFuJTKUYUJr7tbc8WR7ZFpvA7fK" //ptlc
+global.domain = "https://lordvoltage.anonymoushosting.com.ng/"
+global.apikey = "ptla_4g5Nmd7Sejw4JxV8Btzs9EbpXyTtcJ3a6aOfOr2exWv" //ptla
+global.capikey = "ptlc_HaUBtjU47LmfKXmAlgE42bsMFK9pkjsdWqdGQDzuNme" //ptlc
 
 // Settings Api Panel Pterodactyl Server 2
 global.eggV2 = "15" // Egg ID
@@ -104,12 +104,12 @@ apitoken: "hZKxD6afDLF-wsg1qVA-qbDK_h8lBE4NtqnVZPP8"
 
 // Message Command 
 global.mess = {
-	owner: "* *Akses Ditolak*\nFitur ini hanya untuk owner bot!",
-	admin: "* *Akses Ditolak*\nFitur ini hanya untuk admin grup!",
-	botAdmin: "* *Akses Ditolak*\nFitur ini hanya untuk ketika bot menjadi admin!",
-	group: "* *Akses Ditolak*\nFitur ini hanya untuk dalam grup!",
-	private: "* *Akses Ditolak*\nFitur ini hanya untuk dalam private chat!",
-	prem: "* *Akses Ditolak*\nFitur ini hanya untuk user premium!",
+	owner: "* *Access Denied*\nThis feature is only for bot owners!", 
+	admin: "* *Access Denied*\nThis feature is only for group admins!",
+	botAdmin: "* *Access Denied*\nThis feature is only for when the bot is an admin!",
+	group: "* *Access Denied*\nThis feature is only for in groups!", 
+	private: "* *Access Denied*\nThis feature is only for in private chats!",
+	prem: "* *Access Denied*\nThis feature is only for premium users!",
 	wait: 'Loading...',
 	error: 'Error!',
 	done: 'Done'
