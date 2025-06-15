@@ -21,9 +21,9 @@ global.delayJpm = 3000
 global.delayPushkontak = 6000
 
 // Settings Channel / Saluran
-global.linkSaluran = "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A"
-global.idSaluran = "12036339843005533@newsletter"
-global.namaSaluran = "ᴍᴀʟᴠɪɴ ᴋɪɴɢ ᴛᴇᴄʜ🫟"
+global.linkSaluran = "https://whatsapp.com/channel/0029Vb6MfTQ9Gv7R27qTFI1r"
+global.idSaluran = "12036419078399445@newsletter"
+global.namaSaluran = "мalvιn ĸιng тecн reвorn🔮"
 global.pinH2H = "-"
 global.passwordH2H = "-"
 global.merchantIdOrderKuota = "OK1934316"
@@ -66,9 +66,9 @@ global.capikey = "ptlc_HaUBtjU47LmfKXmAlgE42bsMFK9pkjsdWqdGQDzuNme" //ptlc
 global.eggV2 = "15" // Egg ID
 global.nestidV2 = "5" // nest ID
 global.locV2 = "1" // Location ID
-global.domainV2 = "https://-"
-global.apikeyV2 = "-" //ptla
-global.capikeyV2 = "-" //ptlc
+global.domainV2 = "https://lordvoltage.anonymoushosting.com.ng/"
+global.apikeyV2 = "ptla_4g5Nmd7Sejw4JxV8Btzs9EbpXyTtcJ3a6aOfOr2exWv" //ptla
+global.capikeyV2 = "ptlc_HaUBtjU47LmfKXmAlgE42bsMFK9pkjsdWqdGQDzuNme" //ptlc
 
 // Settings Api Subdomain
 global.subdomain = {
