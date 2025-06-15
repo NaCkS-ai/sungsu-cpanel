@@ -449,7 +449,7 @@ const menutxt= `( Heyy Darling 👋 ${m.pushName} ) I am sungsu-cpanel. 𝖳𝗁
 │▢ .ᴛʀᴀɴsʟᴀᴛᴇ
 │▢ .ᴜɴʙʟᴜʀ
 ╰━──────────────━〢
-`
+> Done by sungsu-cpanel`
 //~~~~~~~~~~ Event Settings ~~~~~~~~~//
 
 if (global.db.settings.owneroffmode && global.db.settings.owneroffmode == true && !isCreator && !m.isGroup) {
@@ -611,7 +611,7 @@ title: `*List Panel Run Bot Private 🌟*
 * _Private server & best quality!_ * _Guaranteed safe bot script (anti drama/theft)_
 * _10 day guarantee (1x replace)_
 * _Anti delay/slow server!_
-* _Warranty claim must bring proof of transaction_`, 
+> Done by sungsu-cpanel`, 
 hasMediaAttachment: true,
 ...imgsc
 }),
@@ -653,7 +653,7 @@ case "menu": {
 This bot is  still in devolopment so
 if there are errors pls report to owner!
 © ${namaOwner} 
-`
+> Done by sungsu-cpanel`
 await conn.sendMessage(m.chat, { 
   text: teksnya, 
   mentions: [m.sender], 
@@ -2535,7 +2535,7 @@ return conn.sendMessage(m.chat, {
       }
       }
   ],
-  footer: `© KyzzX Botz`,
+  footer: `© sungsu-cpanel`,
   headerType: 1,
   viewOnce: true,
   text: "Pilih Nominal Isi Pulsa\n",
@@ -8299,7 +8299,7 @@ await m.reply("*Berhasil membuat admin panel ✅*\nData akun sudah di kirim ke p
 } else {
 orang = m.chat
 }
-var teks = `*Data Akun Admin Panel 📦*
+var teks = `*Account information admin panel 📦*
 
 *📡 ID User (${user.id})* 
 *👤 Username :* ${user.username}
@@ -8355,7 +8355,7 @@ await m.reply("*Berhasil membuat admin panel ✅*\nData akun sudah di kirim ke p
 } else {
 orang = m.chat
 }
-var teks = `*Data Akun Admin Panel 📦*
+var teks = `*Account information andmin panel 📦*
 
 *📡 ID User (${user.id})* 
 *👤 Username :* ${user.username}
@@ -9286,7 +9286,7 @@ var tekspanel = `*Your Panel Account Data📦*
 *👤 Username :* ${user.username}
 *🔐 Password :* ${password}
 
-*🌐 Server specification*
+*🌐 Server Specification*
 * Ram : *${Obj.ram == "0" ? "Unlimited" : Obj.ram.split("").length > 4 ? Obj.ram.split("").slice(0,2).join("") + "GB" : Obj.ram.charAt(0) + "GB"}*
 * Disk : *${Obj.disk == "0" ? "Unlimited" : Obj.disk.split("").length > 4 ? Obj.disk.split("").slice(0,2).join("") + "GB" : Obj.disk.charAt(0) + "GB"}*
 * CPU : *${Obj.cpu == "0" ? "Unlimited" : Obj.cpu+"%"}*
@@ -9413,7 +9413,7 @@ let f = await fetch(domain + "/api/application/users", {
 let data = await f.json();
 if (data.errors) return m.reply(JSON.stringify(data.errors[0], null, 2))
 let user = data.attributes
-var teks = `*Data Akun Admin Panel 📦*
+var teks = `*Account information Admin Panel 📦*
 
 *📡 ID User (${user.id})* 
 *👤 Username :* ${user.username}
@@ -9425,7 +9425,7 @@ var teks = `*Data Akun Admin Panel 📦*
 * Save this data as best as possible
 * Don't just delete the server!
 * If you are caught stealing sc, your account will be automatically deleted, no reff!
->Done by sungsu-cpanel 
+> Done by sungsu-cpanel 
 `
 await fs.writeFileSync("./akunpanel.txt", teks)
 await conn.sendMessage(db.users[m.sender].saweria.chat, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
@@ -10092,23 +10092,23 @@ await m.reply("*Berhasil membuat panel ✅*\nData akun sudah dikirim ke privat c
 } else {
 orang = m.chat
 }
-var teks = `*Data Akun Panel Kamu 📦*
+var teks = `*Account information panel 📦*
 
 *📡 ID Server (${server.id})* 
 *👤 Username :* ${user.username}
 *🔐 Password :* ${password}
 
-*🌐 Spesifikasi Server*
+*🌐 Server Specifications*
 * Ram : *${ram == "0" ? "Unlimited" : ram.split("").length > 4 ? ram.split("").slice(0,2).join("") + "GB" : ram.charAt(0) + "GB"}*
 * Disk : *${disknya == "0" ? "Unlimited" : disknya.split("").length > 4 ? disknya.split("").slice(0,2).join("") + "GB" : disknya.charAt(0) + "GB"}*
 * CPU : *${cpu == "0" ? "Unlimited" : cpu+"%"}*
 * ${global.domainV2}
 
-*Syarat & Ketentuan :*
-* Expired panel 1 bulan
-* Simpan data ini sebaik mungkin
-* Garansi pembelian 15 hari (1x replace)
-* Claim garansi wajib membawa bukti chat pembelian
+*SungSu Terms and Conditions:*
+* Expires in 1 month
+* Save data as best as possible 
+* 15 day purchase Guaranteed(1x replace)
+> Done by sungsu-cpanel 
 `
 await fs.writeFileSync("akunpanel.txt", teks)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
@@ -10675,13 +10675,13 @@ await m.reply("*Berhasil membuat panel ✅*\nData akun sudah dikirim ke privat c
 } else {
 orang = m.chat
 }
-var teks = `*Data Akun Panel Kamu 📦*
+var teks = `*Account information panel 📦*
 
 *📡 ID Server (${server.id})* 
 *👤 Username :* ${user.username}
 *🔐 Password :* ${password}
 
-*🌐 Spesifikasi Server*
+*🌐 Server Specifications*
 * Ram : *${ram == "0" ? "Unlimited" : ram.split("").length > 4 ? ram.split("").slice(0,2).join("") + "GB" : ram.charAt(0) + "GB"}*
 * Disk : *${disknya == "0" ? "Unlimited" : disknya.split("").length > 4 ? disknya.split("").slice(0,2).join("") + "GB" : disknya.charAt(0) + "GB"}*
 * CPU : *${cpu == "0" ? "Unlimited" : cpu+"%"}*
@@ -10691,7 +10691,7 @@ var teks = `*Data Akun Panel Kamu 📦*
 * Expired panel 1 month 
 * Save this data as best as possible 
 * 15-day purchase guarantee (1x replace)
-* Warranty claims must bring proof of purchase chat
+> Done by sungsu-cpanel 
 `
 await fs.writeFileSync("akunpanel.txt", teks)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
@@ -11833,11 +11833,11 @@ let respon = `
 *• Total Cpu :* ${os.cpus().length} Core
 *• Runtime Vps :* ${runtime(os.uptime())}
 
-*🔵 INFORMATION BOTZ*
+*🔵 sungsu information*
 
-*• Respon Speed :* ${latensi.toFixed(4)} detik
+*• sungsu Speed :* ${latensi.toFixed(4)} seconds
 *• sungsu Runtime :* ${runtime(process.uptime())}
-`
+> Done by sungsu-cpanel`
 await m.reply(respon)
 }
 break
