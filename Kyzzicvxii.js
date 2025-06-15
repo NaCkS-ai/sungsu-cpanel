@@ -686,7 +686,7 @@ break
 case "allmenu": case "all": {
 // await loading()
   await conn.sendMessage(m.chat, {
-    footer: `© WhatsApp KyzzX Pedia`,
+    footer: `© WhatsApp sungsu tech`,
     buttons: [
       {
         buttonId: 'owner',
@@ -8311,6 +8311,7 @@ var teks = `*Data Akun Admin Panel 📦*
 * Save this data as best as possible 
 * Don't just delete the server!
 * If you are caught stealing sc, your account will be automatically deleted, no reff!
+> Done by sungsu-cpanel 
 `
 await fs.writeFileSync("./akunpanel.txt", teks)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
@@ -8366,6 +8367,7 @@ var teks = `*Data Akun Admin Panel 📦*
 * Save this data as best as possible
 * Don't just delete the server!
 * If you are caught stealing sc, your account will be automatically deleted, no reff!
+> Done by sungsu-cpanel 
 `
 await fs.writeFileSync("./akunpanel.txt", teks)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
@@ -9284,7 +9286,7 @@ var tekspanel = `*Your Panel Account Data📦*
 *👤 Username :* ${user.username}
 *🔐 Password :* ${password}
 
-*🌐 Spesifikasi Server*
+*🌐 Server specification*
 * Ram : *${Obj.ram == "0" ? "Unlimited" : Obj.ram.split("").length > 4 ? Obj.ram.split("").slice(0,2).join("") + "GB" : Obj.ram.charAt(0) + "GB"}*
 * Disk : *${Obj.disk == "0" ? "Unlimited" : Obj.disk.split("").length > 4 ? Obj.disk.split("").slice(0,2).join("") + "GB" : Obj.disk.charAt(0) + "GB"}*
 * CPU : *${Obj.cpu == "0" ? "Unlimited" : Obj.cpu+"%"}*
@@ -9295,6 +9297,7 @@ var tekspanel = `*Your Panel Account Data📦*
 * Save this data as best as possible 
 * 15-day purchase guarantee (1x replace) 
 * Warranty claims must bring proof of purchase chat
+> Done by sungsu-cpanel 
 `
 await fs.writeFileSync("./akunpanel.txt", tekspanel)
 await conn.sendMessage(orang, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: tekspanel}, {quoted: null})
@@ -9422,6 +9425,7 @@ var teks = `*Data Akun Admin Panel 📦*
 * Save this data as best as possible
 * Don't just delete the server!
 * If you are caught stealing sc, your account will be automatically deleted, no reff!
+>Done by sungsu-cpanel 
 `
 await fs.writeFileSync("./akunpanel.txt", teks)
 await conn.sendMessage(db.users[m.sender].saweria.chat, {document: fs.readFileSync("./akunpanel.txt"), fileName: "akunpanel.txt", mimetype: "text/plain", caption: teks}, {quoted: m})
