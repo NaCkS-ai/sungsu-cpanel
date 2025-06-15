@@ -58,16 +58,16 @@ qris: "https://files.catbox.moe/l0wexq.jpg"
 global.egg = "15" // Egg ID
 global.nestid = "5" // nest ID
 global.loc = "1" // Location ID
-global.domain = "https://lordvoltage.anonymoushosting.com.ng/"
-global.apikey = "ptla_4g5Nmd7Sejw4JxV8Btzs9EbpXyTtcJ3a6aOfOr2exWv" //ptla
+global.domain = "https://lordvoltage.anonymoushosting.com.ng"
+global.apikey = "ptla_Rm7bMToPRV3q4fkYjQgsF21clrdmMFFvVVpKXseLeW4" //ptla
 global.capikey = "ptlc_HaUBtjU47LmfKXmAlgE42bsMFK9pkjsdWqdGQDzuNme" //ptlc
 
 // Settings Api Panel Pterodactyl Server 2
 global.eggV2 = "15" // Egg ID
 global.nestidV2 = "5" // nest ID
 global.locV2 = "1" // Location ID
-global.domainV2 = "https://lordvoltage.anonymoushosting.com.ng/"
-global.apikeyV2 = "ptla_4g5Nmd7Sejw4JxV8Btzs9EbpXyTtcJ3a6aOfOr2exWv" //ptla
+global.domainV2 = "https://lordvoltage.anonymoushosting.com.ng"
+global.apikeyV2 = "ptla_Rm7bMToPRV3q4fkYjQgsF21clrdmMFFvVVpKXseLeW4" //ptla
 global.capikeyV2 = "ptlc_HaUBtjU47LmfKXmAlgE42bsMFK9pkjsdWqdGQDzuNme" //ptlc
 
 // Settings Api Subdomain
