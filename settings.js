@@ -14,16 +14,16 @@ global.pairing_code = true // Jangan ubah
 
 // Settings Link / Tautan
 global.linkOwner = "https://wa.me/22813374457"
-global.linkGrup = "https://chat.whatsapp.com/KwAcndFrSQtH1mXzYkJ5SD"
+global.linkGrup = "https://chat.whatsapp.com/IuA7gCYXCQ1GxMYLgnX4qG"
 
 // Delay Jpm & Pushctc || 1000 = 1detik
 global.delayJpm = 3000
 global.delayPushkontak = 6000
 
 // Settings Channel / Saluran
-global.linkSaluran = "https://whatsapp.com/channel/0029Vb6MfTQ9Gv7R27qTFI1r"
-global.idSaluran = "12036419078399445@newsletter"
-global.namaSaluran = "мalvιn ĸιng тecн reвorn🔮"
+global.linkSaluran = "https://whatsapp.com/channel/0029Vb6TAmjHwXb5Qx1BpE0j"
+global.idSaluran = "120363420267586200@newsletter"
+global.namaSaluran = "ѕυngѕυтecн-oғғιcιal🎐"
 global.pinH2H = "-"
 global.passwordH2H = "-"
 global.merchantIdOrderKuota = "OK1934316"
