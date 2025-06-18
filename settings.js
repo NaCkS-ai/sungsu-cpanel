@@ -45,7 +45,9 @@ global.gopay = "Tidak Tersedia"
 
 // Settings Image Url
 global.image = {
-menu: "https://files.catbox.moe/l0wexq.jpg", 
+menu: "video: { url: 'https://files.catbox.moe/0rngmu.mp4' },
+        caption: madeMenu,
+        gifPlayback: true,", 
 reply: "https://files.catbox.moe/l0wexq.jpg", 
 logo: "https://files.catbox.moe/l0wexq.jpg", 
 dana: "https://img102.pixhost.to/images/79/556578147_biyu.jpg", 
