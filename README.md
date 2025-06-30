@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 Cpanel bot created by Mr sung💯✨️🏆
 <p align="center">
-  <img src="https://files.catbox.moe/l0wexq.jpg" />
+  <img src="https://files.catbox.moe/rv8y2w.jpg" />
 </p>
 
 <!-- 📊 STATS & HERO ANIMATION (Updated Colors) -->
