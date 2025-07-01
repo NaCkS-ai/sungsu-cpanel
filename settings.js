@@ -45,13 +45,13 @@ global.gopay = "Tidak Tersedia"
 
 // Settings Image Url
 global.image = {
-menu: "https://files.catbox.moe/rv8y2w.jpg", 
-reply: "https://files.catbox.moe/rv8y2w.jpg", 
-logo: "https://files.catbox.moe/rv8y2w.jpg", 
+menu: "https://files.catbox.moe/l0mat9.jpg", 
+reply: "https://files.catbox.moe/l0mat9.jpg", 
+logo: "https://files.catbox.moe/l0mat9.jpg", 
 dana: "https://img102.pixhost.to/images/79/556578147_biyu.jpg", 
 ovo: "https://img102.pixhost.to/images/79/556578147_biyu.jpg", 
 gopay: "https://img102.pixhost.to/images/79/556578147_biyu.jpg", 
-qris: "https://files.catbox.moe/rv8y2w.jpg"
+qris: "https://files.catbox.moe/l0mat9.jpg"
 }
 
 // Settings Api Panel Pterodactyl
