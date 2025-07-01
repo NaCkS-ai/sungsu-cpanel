@@ -167,7 +167,7 @@ await conn.sendMessage(from, {text: kyzz[i], edit: key });
 }
 }
 
-const menutxt= `( Heyy Darling 👋 ${m.pushName} ) I am sungsu-cpanel. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, Mr sungsu. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
+const menutxt= `( Arise weak one🔮${m.pushName} ) I am sungsu-cpanel. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, Mr sungsu. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
 ╭─「 \`BOT INFORMATION\` 」
 │▢ Bot name : ${global.botname2}
 │▢ Version: ${global.versi}
@@ -634,7 +634,7 @@ await conn.relayMessage(jid, msgii.message, {messageId: msgii.key.id})
 switch (command) {
 case "menu": {
 // await loading()
-  let teksnya = `( Heyy Darling 👋 ${m.pushName} ) I am sungsu-cpanel. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, Mr sung. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
+  let teksnya = `( Arise weak one🔮 ${m.pushName} ) I am sungsu-cpanel. 𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝖺𝗌 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖻𝗒 𝗆𝗒 𝗈𝗐𝗇𝖾𝗋, Mr sung. 𝖳𝗁𝗂𝗌 𝗌𝖼𝗋𝗂𝗉𝗍 𝗂𝗌
 ╭──「 \`INFO BOT\` ⌝ 
 │▢ Bot name: *${global.botname2}*
 │▢ Version: ${versi}
